@@ -1,0 +1,85 @@
+/* Write CSS here */
+
+.stopwatch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.stopwatch-con {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  background-size: cover;
+  width: 80%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.head {
+  font-size: 30px;
+  align-self: flex-start;
+  text-align: center;
+}
+
+.timer-text {
+  font-size: 30px;
+  font-weight: bold;
+}
+.box-con {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  box-shadow: 0px 4px 16px 0px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.img-timer-con {
+  display: flex;
+  justify-content: space-between;
+}
+
+.but-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.img {
+  width: 40px;
+  height: 40px;
+}
+
+.start {
+  background-color: #1db05f;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.stop {
+  background-color: #ef0d36;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.reset {
+  background-color: #eaa800;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
